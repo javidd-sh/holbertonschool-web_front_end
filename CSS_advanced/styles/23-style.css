@@ -1,9 +1,11 @@
-[data-section-theme="dark"] .footer-address,
-[data-section-theme="dark"] .social-link svg {
-  color: var(--text-color); /* address için */
-  fill: var(--text-color);  /* svg için */
+.footer-address {
+  color: var(--text-color);
 }
 
 .social-link {
   display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
 }
