@@ -36,23 +36,23 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Hiperlink içeren anchor öğeleri için */
+
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* Ziyaret edilmiş durum */
+
 a[href]:visited {
   font-style: italic;
 }
 
-/* Üzerine gelindiğinde (hover) */
+
 a[href]:hover {
   text-decoration: underline;
 }
 
-/* Aktif durum */
+
 a[href]:active {
   background-color: var(--color-light-grey);
 }
