@@ -37,20 +37,20 @@ body {
 }
 
 
-a {
+a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
   font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
 
@@ -80,25 +80,4 @@ a:active {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-}
-
-a[href] {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-
-a[href]:visited {
-  font-style: italic;
-  text-decoration: none;
-}
-
-
-a[href]:hover {
-  text-decoration: underline;
-}
-
-
-a[href]:active {
-  background-color: var(--color-light-grey);
 }
