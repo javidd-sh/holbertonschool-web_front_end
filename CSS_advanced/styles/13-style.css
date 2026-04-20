@@ -81,11 +81,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
-a:visited {
-  font-style: italic;
-  text-decoration: none; /* Bunu ekleyerek tekrar dene */
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
 }
-a:active {
+
+
+a[href]:visited {
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+
+a[href]:active {
   background-color: var(--color-light-grey);
-  color: var(--text-color); /* Bunu ekleyerek tekrar dene */
 }
